@@ -1,0 +1,12 @@
+fn main() { 
+    let x = 2; 
+    let y = 3; 
+    let z = x <= y; 
+    let ab = a(); 
+    let zz = z || ab; 
+    return zz;
+} 
+fn a(){
+    let c = true && false; 
+    return c;
+}
